@@ -1,0 +1,12 @@
+name: DevDataCourseProject
+title: DevDataCourseProject
+username:
+account: nsunassee
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 814301
+bundleId: 1964983
+url: https://nsunassee.shinyapps.io/DevDataCourseProject/
+when: 1553583811.17747
+asMultiple: FALSE
+asStatic: FALSE

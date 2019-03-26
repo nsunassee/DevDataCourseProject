@@ -24,14 +24,14 @@ shinyUI(
     mainPanel(
       numericInput('weight', 'Enter your weight (in kg)', 0),
       numericInput('height', 'Enter your height (in m)', 0, min = 1.00, max = 2.19, step = 0.01),
-      submitButton('Calculate BMI'),
+      submitButton('Calculate your BMI'),
       
-      h3('Calculating your BMI:'), 
-      p('weight:'), verbatimTextOutput("inputweightvalue"),
-      p('height:'), verbatimTextOutput("inputheightvalue"),
-      h4('Your BMI is:'),
+      h2('Calculating your BMI:'), 
+      h5('weight:'), verbatimTextOutput("inputweightvalue"),
+      h5('height:'), verbatimTextOutput("inputheightvalue"),
+      h3('Your BMI is:'),
       verbatimTextOutput("estimation"),
-      p('Results:'),strong(verbatimTextOutput("diagnostic"))
+      h2('Your Result is:'),strong(verbatimTextOutput("diagnostic"))
     )
   )   
 )

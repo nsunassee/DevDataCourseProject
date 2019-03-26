@@ -1,0 +1,44 @@
+---
+title: "My Shiny App"
+author: "Nakkiran Sunassee"
+date: '`r format(Sys.time(), "%d %B %Y")`'
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+options(knitr.table.format = "html")
+```
+
+Simple Shiny Application
+----
+This presentation, created using R Markdown, is the assignment for Week 4 of the Developing Data Products course.
+
+This project has two parts: a Shiny application deployed on Rstudio's servers, and a presentation created using Slidify.
+
+The Shiny app, hosted on RStudio's Shinyapps server: https://nsunassee.shinyapps.io/DevDataCourseProject/
+
+The Shiny app source code, on my GitHub: https://github.com/nsunassee/DevDataCourseProject
+
+The presentation about my Shiny app: http://nsunassee.github.io/DevDataCourseProject/
+
+
+What is your BMI?
+----
+Body Mass Index is an estimate of the body fat of a person, calculated using their height and weight.
+
+The formula is BMI = kg/m2, with the weight in kg and m2 is their height in metres squared. A healthy BMI is between 18.5 to 24.9. Should your BMI be over 25, this may indicate that you are overweight.
+
+      
+Embedded Code      
+----
+```r{}
+BMI <- function(weight,height) {
+  weight/(height^2)
+}
+```
+
+Disclaimer
+----
+While BMI applies to most adults 18-65 years, please note that this result is indicative only.
+Please consult your medical practitioner for further information.
