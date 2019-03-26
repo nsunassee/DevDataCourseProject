@@ -6,4 +6,4 @@ The Shiny app, hosted on RStudio's Shinyapps server: https://nsunassee.shinyapps
 
 The Shiny app source code, on my GitHub: https://github.com/nsunassee/DevDataCourseProject
 
-The presentation about my Shiny app: http://nsunassee.github.io/DevDataCourseProject/
+The presentation about my Shiny app: http://nsunassee.github.io/DevDataCourseProject/DevDataCourseProject.html
